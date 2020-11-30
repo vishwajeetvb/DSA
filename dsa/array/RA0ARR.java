@@ -1,7 +1,7 @@
 //W.A.P to reverse the array
 //our algorithm complexity is O(n)
 
-package array;
+package dsa.array;
 
 import java.util.Scanner;
 

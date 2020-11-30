@@ -1,4 +1,6 @@
-package array;
+//Write a Program to sort array Using Quick Sort using Hoare's Partition
+
+package dsa.array;
 
 import java.util.Scanner;
 
