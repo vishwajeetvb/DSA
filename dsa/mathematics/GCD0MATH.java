@@ -31,7 +31,7 @@ public class GCD0MATH {
     }
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter the two number to find out");
+        System.out.println("Enter the two number to find out GCD of number");
         int num1=input.nextInt();
         int num2=input.nextInt();
         int gcd = eucledianGCD(num1,num2);

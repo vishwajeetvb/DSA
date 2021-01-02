@@ -18,7 +18,7 @@ public class TFN0MATH {
     }
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter the Number To Find Factorial of Number: ");
+        System.out.println("Enter the Number To Find No of Zero's in Factorial of Number: ");
         int number = input.nextInt();
         //int factorial = iterativeFactorial(number);
         int factorial = trailingZeroFactorial(number);
