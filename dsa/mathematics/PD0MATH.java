@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class PD0MATH {
 
-    /*My own method where i convert the number into stringa and then compare both the string chatAt 
+    /*My own method where i convert the number into string and then compare both the string chatAt 
       one string from starting index
       another string from last index
       if it does not matches it return false

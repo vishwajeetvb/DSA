@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class FBN0MATH {
 
     public static void iterativeBigNumberFactorial(int number) {
+
         int[] store = new int[1000];
         int result=number;
         int index=0;
@@ -39,10 +40,11 @@ public class FBN0MATH {
             System.out.print(store[i]);
         }
         
-    }
+    }    
+   
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter the Number To Find Factorial of Number: ");
+        System.out.println("Enter the Number To Find Factorial of Large Number: ");
         int number = input.nextInt();
         System.out.print("Factorial Of Given Number is: ");
         iterativeBigNumberFactorial(number);
