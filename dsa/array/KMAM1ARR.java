@@ -3,7 +3,7 @@ package dsa.array;
 
 import java.util.Scanner;
 
-public class KMAM0ARR {
+public class KMAM1ARR {
 
     public static int kSmallestElement(int[] arr,int size,int k) {
         int ele=0;

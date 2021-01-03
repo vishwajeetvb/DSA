@@ -6,12 +6,12 @@ package dsa.array;
 
 import java.util.Scanner;
 
-public class MAM0ARR {
+public class MAM1ARR {
     int max;
     int min;
 
-    public static MAM0ARR maxAndMinArray(int[] arr,int size) {
-        MAM0ARR obj = new MAM0ARR();
+    public static MAM1ARR maxAndMinArray(int[] arr,int size) {
+        MAM1ARR obj = new MAM1ARR();
         if(size==1){
             obj.max=arr[0];
             obj.min=arr[0];
@@ -49,7 +49,7 @@ public class MAM0ARR {
         for(int i=0;i<size;i++){
             arr[i]=input.nextInt();
         }
-        MAM0ARR obj = maxAndMinArray(arr,size);
+        MAM1ARR obj = maxAndMinArray(arr,size);
         System.out.print("Max element is: "+obj.max+" Min element is: "+obj.min);
         input.close();
     }
