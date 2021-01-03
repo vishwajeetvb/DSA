@@ -1,7 +1,7 @@
 ////Write a Program to sort array Using Quick Sort using Lomudo's Partition
 
 
-package dsa.array;
+package dsa.searchingAndSorting;
 
 import java.util.Scanner;
 

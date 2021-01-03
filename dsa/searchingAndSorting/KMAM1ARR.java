@@ -1,5 +1,5 @@
 
-package dsa.array;
+package dsa.searchingAndSorting;
 
 import java.util.Scanner;
 
