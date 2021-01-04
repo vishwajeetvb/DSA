@@ -2,7 +2,7 @@
 //Our approach is to have two pointers from starting to last index which swap the elements
 //our algorithm complexity is O(n)
 
-package dsa.array;
+
 
 import java.util.Scanner;
 

@@ -2,7 +2,7 @@
 //Our approach is to have two integer which keep track of first largest and second largest element
 //Time complexity is O(n)
 
-package dsa.array;
+
 
 import java.util.Scanner;
 

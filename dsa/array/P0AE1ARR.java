@@ -1,7 +1,7 @@
 //Program to push all the zero to the end of array
 //Our approach is to count all the non zero element and overwrite them with zeros
 // and then at last overwrite all the excess index with 0
-package dsa.array;
+
 
 import java.util.Scanner;
 

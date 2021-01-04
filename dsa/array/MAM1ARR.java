@@ -2,7 +2,7 @@
 //Find the maximum and minimum element in an array
 //Our algorithm complexity is O(n)
 
-package dsa.array;
+
 
 import java.util.Scanner;
 
