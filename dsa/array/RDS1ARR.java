@@ -1,4 +1,5 @@
-
+/* Here one function is with temparr another is without using  anothr arr
+*/
 
 import java.util.Scanner;
 
@@ -16,8 +17,25 @@ public class RDS1ARR {
         for(int i=0;i<=j;i++){
             arr[i]=temp[i];            
         }
-        return j;
-        
+        return j;        
+    }
+
+    public static int removeDuplicatesArrayWithoutTempArray(int[] arr,int size){
+        int arr_size=1;
+        int curr_ele = arr[0];
+        for(int i=1;i<size;){
+           if(curr_ele==arr[i]){
+               i++;
+           }
+           else{
+              arr[arr_size]=arr[i];
+              curr_ele=arr[i];
+              i++;
+              arr_size++;
+              
+           }
+        }
+        return arr_size-1;
     }
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -27,7 +45,7 @@ public class RDS1ARR {
         for(int i=0;i<size;i++){
             arr[i]=input.nextInt();
         }
-        int index = removeDuplicatesArray(arr,size);
+        int index = removeDuplicatesArrayWithoutTempArray(arr,size);
         for(int i=0;i<=index;i++){
             System.out.print(arr[i]+" ");
         }
