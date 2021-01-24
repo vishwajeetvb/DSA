@@ -27,7 +27,7 @@ class KD1ARR{
        return result;
     }
 public static void main(String[] args) {
-    Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.println("Enter the size of array: ");
         int size = input.nextInt();
         int[] arr = new int[size];
