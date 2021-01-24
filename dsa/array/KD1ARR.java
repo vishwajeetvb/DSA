@@ -1,12 +1,12 @@
 
-//Here Our approach is to compare currentmax sum + next element sum is greater than current elemnt
+/*Here Our approach is to compare currentmax sum + next element sum is greater than current elemnt
 //if its greater that means we keep on adding element into array
 //if it's not that means current element is giving more sum than previous subarray so we update teh current sum
 
 //Now result is maintained if we found previously with an subarray max sum so we compare this with each subarray
 // so that we can print the maximum sum
 
-//This algo T.C is O(n)
+//This algo T.C is O(n)*/
 
 import java.util.Scanner;
 

@@ -1,13 +1,11 @@
 
-//Find the maximum and minimum element in an array
+/*Find the maximum and minimum element in an array
 //Our algorithm complexity is O(n)
 //Our approach is to have two min and max element and then just compare all value
 //if it is smaller than min-> update min
-//if it is bigger than max-> update max
-
+//if it is bigger than max-> update max*/
 
 import java.util.Scanner;
-
 public class MAM1ARR {
     int max;
     int min;
