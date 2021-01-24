@@ -1,5 +1,5 @@
 
-//First Solution..................
+/*First Solution..................
 //In This approach we use the idea of selection sort where we choose the first element
 //of secodn array and compare it with each element of first array and
 //when we found any element greater the array2[0] we swap them
@@ -10,7 +10,7 @@
 
 //It's time complexity will be O(m*nlogn)
 //It's one approach which solve the problem with O(1) T.C.
-//But it gives T.L.E in competative
+//But it gives T.L.E in competative*/
 
 
 import java.util.Scanner;
@@ -81,7 +81,6 @@ public class M2SA1ARR {
             merge(arr, l, m, r);
         }
     }
- 
 
     public static void MergeTwoArray(int arr1[],int size1,int[] arr2,int size2){
           for(int i=0;i<size1;i++){
