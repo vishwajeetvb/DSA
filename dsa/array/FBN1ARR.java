@@ -4,7 +4,7 @@
 
 import java.util.Scanner;
 
-public class FBN0MATH {
+public class FBN1ARR {
 
     public static void iterativeBigNumberFactorial(int number) {
 
