@@ -1,6 +1,5 @@
-//Write a Program To count number of digits in a given Number
 
-package dsa.mathematics;
+
 import java.util.Scanner;
 
 class CDOMATH{

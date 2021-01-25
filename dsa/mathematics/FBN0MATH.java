@@ -1,6 +1,6 @@
 //For concept refer to below link
 //https://algotree.org/algorithms/numeric/large_factorials/
-package dsa.mathematics;
+
 
 import java.util.Scanner;
 

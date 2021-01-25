@@ -1,6 +1,6 @@
 //Here task is to print all the prime divisor of given number 
 
-package dsa.mathematics;
+
 
 import java.util.Scanner;
 
