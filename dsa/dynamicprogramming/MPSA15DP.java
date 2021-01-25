@@ -1,8 +1,9 @@
+
 //This algorithm does'nt cover all cases
 
 import java.util.Scanner;
 
-public class MPSA1ARR {
+public class MPSA15DP {
     static long maxProduct(int[] arr, int n) {
         // code here
         
