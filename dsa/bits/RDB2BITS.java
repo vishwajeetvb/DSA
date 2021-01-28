@@ -8,7 +8,7 @@
 
 import java.util.Scanner;
 
-public class KBSON2BITS {
+public class RDB2BITS {
     static int firstSetBit(int n){
         if(n==0){
             return 0;
