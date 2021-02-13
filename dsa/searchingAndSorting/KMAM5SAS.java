@@ -1,9 +1,9 @@
 
-package dsa.searchingAndSorting;
+
 
 import java.util.Scanner;
 
-public class KMAM1ARR {
+public class KMAM5SAS {
 
     public static int kSmallestElement(int[] arr,int size,int k) {
         int ele=0;
