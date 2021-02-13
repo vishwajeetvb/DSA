@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class SSA1ARR {
     public static long sb(long arr[], long n, long x) {
         int curr_sum = 0, min_len = (int)n + 1; 

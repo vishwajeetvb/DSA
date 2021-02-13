@@ -1,15 +1,14 @@
-//Program to Find out seocnd largest number in an array
+/*Program to Find out seocnd largest number in an array
 //Our approach is to have two integer which keep track of first largest and second largest element
 //Here we compare curr_ele first with firstmax, if its bigger
 //update firstmax as curr_ele & second_max as first_max
 //if its less than first_max then check is bigger than second_max
 //if bigger update second_max else ignore curr_ele;
-//Time complexity is O(n)
+//Time complexity is O(n)*/
 
 
 
 import java.util.Scanner;
-
 public class SLE1ARR {
 
     public static int secondLargestElement(int[] arr,int size) {
