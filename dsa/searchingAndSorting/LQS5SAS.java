@@ -1,39 +1,34 @@
 ////Write a Program to sort array Using Quick Sort using Lomudo's Partition
-
-
-
-
 import java.util.Scanner;
 
 public class LQS5SAS {
 
-    public static int partition(int[] arr,int start,int last) {
-        int pivot = arr[last];
-        int firstPointer=start-1;
-        int secondPointer=start;
-        for(;secondPointer<=last-1;secondPointer++){
-            if(arr[secondPointer]<pivot){
-                firstPointer++;
-                int temp=arr[firstPointer];
-                arr[firstPointer]=arr[secondPointer];
-                arr[secondPointer]=temp;
-            }            
-        }
-        int temp=arr[firstPointer+1];
-        arr[firstPointer+1]=arr[last];
-        arr[last]=temp;
-        return firstPointer+1;        
-    }
-
-
-    public static void lomudoQuickSortArray(int[] arr,int start,int last) {
-        if(start<last){
-            int partition = partition(arr, start, last);
-            lomudoQuickSortArray(arr, start, partition - 1);
-            lomudoQuickSortArray(arr, partition + 1, last);
+    public static void quickSort(int[] arr, int low, int high) {
+        if (low < high) {
+            int partition = partition(arr, low, high); // get the correct position of the pivot
+            quickSort(arr, low, partition - 1); // call quickSort on the sub-left array
+            quickSort(arr, partition + 1, high); // call quickSort on the sub-right array
         }
     }
 
+    public static int partition(int[] arr, int low, int high) {
+        int pivot = arr[high]; // pick the last element as the pivot
+        int i = low; // initially set i to low
+        for(int j = low; j < high; j++) { // loop through all array elements
+            if (arr[j] < pivot) {
+                swap(arr, i, j); // move elements less than pivot to the correct order by swapping arr[i] with arr[j]
+                i++; // increase i to the next array position
+            }
+        }
+        swap(arr, i, high); // swap the pivot to the correct position
+        return i; // return the index of the pivot
+    }
+
+    public static void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the size of array: ");
@@ -42,7 +37,7 @@ public class LQS5SAS {
         for(int i=0;i<size;i++){
             arr[i]=input.nextInt();
         }
-        lomudoQuickSortArray(arr,0,size-1);
+        quickSort(arr,0,size-1);
         for(int array:arr){
             System.out.print(array+" ");
         }

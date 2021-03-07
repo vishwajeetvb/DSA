@@ -1,3 +1,11 @@
+/*
+  Idea is to use meger sort and use that process to find inversion
+  Idea is when we have two arrays and we meger them
+  in same way we divide array in two parts and sort them and 
+  then when we right smaller element in right array means its a inversion
+  just count it
+*/
+
 import java.util.Scanner;
 
 class IC5SAS{
