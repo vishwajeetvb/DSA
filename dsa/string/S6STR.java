@@ -25,16 +25,20 @@ public class S6STR {
             System.out.println(a1);
         }*/
 
-        String a = "geeksforgeeks";
+        String aa = "geeksforgeeks";
         String b = "forgeeksgeeks";
 
-        char[] a1 = a.toCharArray(); 
+        char[] a1 = aa.toCharArray(); 
         Arrays.sort(a1);
         char[] a2 = b.toCharArray(); 
         Arrays.sort(a2);
         System.out.println(a1.toString());
         System.out.println(a2.toString());
         System.out.println(a1.toString()==a2.toString());
+        boolean a[][] = new boolean[a1.length][a1.length];
+        for(int i=0;i<a.length;++i){
+            a[i][i]=true;
+        }
 
     }
 }
