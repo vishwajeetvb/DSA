@@ -30,9 +30,6 @@ public class SOS6STR {
 }
 
     public static void main(String[] args) {
-
-
-
         Scanner input = new Scanner(System.in);
         String A = input.nextLine();
         String B = input.nextLine();
