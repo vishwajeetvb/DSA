@@ -1,3 +1,4 @@
+package hashing;
 import java.util.Scanner;
 
 public class WASON4HASH {

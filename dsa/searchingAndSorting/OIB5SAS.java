@@ -1,7 +1,7 @@
 /*
 Our simple approach is to run binary search with some modificationw which gives us T.C O(logn)
 */
-
+package searchingAndSorting;
 import java.util.Scanner;
 
 public class OIB5SAS {

@@ -1,3 +1,5 @@
+package searchingAndSorting;
+
 /*
 Our approach is simpel where we check for the element is bigger than its leftmost element and snaller then rightmost element
 OR if Oth element it should be bigger than rightmost

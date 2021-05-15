@@ -1,46 +1,48 @@
-class Node{
+
+package linkedlist;
+class Node {
     public int data;
     public Node next;
 
-    Node(int data){
+    Node(int data) {
         this.data = data;
     }
 }
 
-class SingleLL{
+class SingleLL {
     Node head;
     Node tail;
-    
-    void AddAtStart(int data){
+
+    void AddAtStart(int data) {
         Node node = new Node(data);
-        if(head==null){            
-            this.head=this.tail=node;
-        }else{
-            node.next=head;
-            head=node;
+        if (head == null) {
+            this.head = this.tail = node;
+        } else {
+            node.next = head;
+            head = node;
         }
     }
 
-   void display(){
+    void display() {
         Node temp = this.head;
-        while(temp != null){
-            System.out.print(temp.data+"->");
+        while (temp != null) {
+            System.out.print(temp.data + "->");
             temp = temp.next;
         }
         System.out.println();
     }
 
-    void deleteAtStart(){
-       if(head==null){
-           System.out.println("List is Empty");
-       }else{
-           head.next=head.next.next;
-       }
+    void deleteAtStart() {
+        if (head == null) {
+            System.out.println("List is Empty");
+        } else {
+            head = head.next;
+        }
     }
 
 }
 
-public class ISLL7LL {    
+public class ISLL7LL {
     public static void main(String[] args) {
         SingleLL obj = new SingleLL();
         obj.AddAtStart(20);

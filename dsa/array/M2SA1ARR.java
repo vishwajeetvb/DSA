@@ -12,7 +12,7 @@
 //It's one approach which solve the problem with O(1) T.C.
 //But it gives T.L.E in competative*/
 
-
+package array;
 import java.util.Scanner;
 
 public class M2SA1ARR {

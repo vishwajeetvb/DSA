@@ -5,7 +5,7 @@
 
   It's T.C will be O(logn)
 */
-
+package bits;
 import java.util.Scanner;
 
 public class RDB2BITS {

@@ -1,5 +1,5 @@
 
-
+package mathematics;
 import java.util.Scanner;
 
 public class GCD0MATH {

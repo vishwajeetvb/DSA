@@ -1,4 +1,5 @@
 ////Write a Program to sort array Using Quick Sort using Lomudo's Partition
+package searchingAndSorting;
 import java.util.Scanner;
 
 public class LQS5SAS {

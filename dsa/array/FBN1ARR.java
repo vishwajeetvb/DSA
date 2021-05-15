@@ -1,7 +1,7 @@
 //For concept refer to below link
 //https://algotree.org/algorithms/numeric/large_factorials/
 
-
+package array;
 import java.util.Scanner;
 
 public class FBN1ARR {

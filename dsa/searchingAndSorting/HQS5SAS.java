@@ -1,7 +1,7 @@
 //Write a Program to sort array Using Quick Sort using Hoare's Partition
 
 
-
+package searchingAndSorting;
 import java.util.Scanner;
 
 public class HQS5SAS {

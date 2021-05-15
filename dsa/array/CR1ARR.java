@@ -1,7 +1,7 @@
 //Program to cyclically rotate an array by D places 
 //Here we have used two approach one with O(n) T.C && O(n) space complexity
 //Another with O(n) but with constant space
-
+package array;
 import java.util.Scanner;
 
 public class CR1ARR {

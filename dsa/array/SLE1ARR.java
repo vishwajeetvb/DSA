@@ -7,7 +7,7 @@
 //Time complexity is O(n)*/
 
 
-
+package array;
 import java.util.Scanner;
 public class SLE1ARR {
 

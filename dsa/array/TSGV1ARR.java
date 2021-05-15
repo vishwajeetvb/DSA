@@ -9,6 +9,7 @@ then we do sum-arr[0] and we get a req_sum then we use two pointer and
  search whole array
  Whose T.C is O(n*n+nlogn)
 */
+package array;
 import java.util.Scanner;
 
 public class TSGV1ARR {

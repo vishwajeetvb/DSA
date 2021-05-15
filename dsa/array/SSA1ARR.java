@@ -1,3 +1,4 @@
+package array;
 import java.util.Scanner;
 public class SSA1ARR {
     public static long sb(long arr[], long n, long x) {

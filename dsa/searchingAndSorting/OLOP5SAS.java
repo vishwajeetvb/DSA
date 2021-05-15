@@ -1,3 +1,4 @@
+package searchingAndSorting;
 import java.util.Scanner;
 
 public class OLOP5SAS {

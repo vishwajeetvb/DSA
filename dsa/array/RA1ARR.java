@@ -3,7 +3,7 @@
 //our algorithm complexity is O(n)
 
 
-
+package array;
 import java.util.Scanner;
 
 class RAOARR{

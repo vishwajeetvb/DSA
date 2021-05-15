@@ -1,7 +1,7 @@
 //Here task is to print all the prime divisor of given number 
 
 
-
+package mathematics;
 import java.util.Scanner;
 
 public class DGN0MATH {

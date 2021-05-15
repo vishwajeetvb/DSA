@@ -5,7 +5,7 @@
   then when we right smaller element in right array means its a inversion
   just count it
 */
-
+package searchingAndSorting;
 import java.util.Scanner;
 
 class IC5SAS{

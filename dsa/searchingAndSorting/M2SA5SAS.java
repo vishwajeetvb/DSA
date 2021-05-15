@@ -1,3 +1,4 @@
+package searchingAndSorting;
 import java.util.Scanner;
 
 public class M2SA5SAS {

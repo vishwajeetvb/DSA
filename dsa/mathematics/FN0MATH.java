@@ -1,5 +1,5 @@
 
-
+package mathematics;
 import java.util.Scanner;
 
 public class FN0MATH {

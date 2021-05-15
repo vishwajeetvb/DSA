@@ -1,3 +1,5 @@
+//Implementation Of Linked List Class in Java
+package linkedlist;
 class Node{ 
  private String data;
  private Node next;
@@ -84,7 +86,6 @@ class LinkedList{
         }else{
             node.setNext(this.head);
             this.head=node; 
-
         }
     }
 
@@ -160,6 +161,7 @@ public class BLL7LL {
         llobj.AddAtStart("Bhubneshwar");       
         llobj.insertAfter("Chennai","NEW DELHI");
         llobj.display();
+        
         System.out.println("Element present: "+llobj.search("NEW DELHI"));;
         llobj.reverseList();
         llobj.display();

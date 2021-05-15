@@ -9,7 +9,7 @@ so that we get just next permutation from current
 
 And for all element greater we just sort the array and return it
 */
-
+package array;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
