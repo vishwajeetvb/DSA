@@ -3,7 +3,7 @@ Here our approach is to have two variable add and sub where we compare
 if our smallest and biggest variable is geeting affected by their add and small
 if affected we update variable biggest or smallest
 */
-package array;
+
 import java.util.Arrays;
 import java.util.Scanner;
 

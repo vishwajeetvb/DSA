@@ -1,4 +1,4 @@
-package searchingAndSorting;
+
 import java.util.Scanner;
 
 public class SNWT0SAS {

@@ -7,7 +7,7 @@
 // so that we can print the maximum sum
 
 //This algo T.C is O(n)*/
-package array;
+
 import java.util.Scanner;
 
 class KD1ARR{

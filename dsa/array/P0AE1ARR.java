@@ -2,7 +2,7 @@
 //Our approach is to count all the non zero element and overwrite them with zeros
 // and then at last overwrite all the excess index with 0
 
-package array;
+
 import java.util.Scanner;
 
 public class P0AE1ARR {

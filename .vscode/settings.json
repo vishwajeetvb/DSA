@@ -1,0 +1,14 @@
+{
+    "java.project.sourcePaths": [
+        "dsa/array",
+        "dsa/bits",
+        "dsa/dynamicprogramming",
+        "dsa/hashing",
+        "dsa/linkedlist",
+        "dsa/mathematics",
+        "dsa/matrix",
+        "dsa/searchingAndSorting",
+        "dsa/stackandqueues",
+        "dsa/string"
+     ]
+}

@@ -1,6 +1,6 @@
 
 //This algorithm does'nt cover all cases
-package dynamicprogramming;
+
 import java.util.Scanner;
 
 public class MPSA15DP {

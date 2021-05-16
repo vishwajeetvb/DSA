@@ -1,4 +1,4 @@
-package searchingAndSorting;
+
 import java.util.Scanner;
 
 class KETSAS{

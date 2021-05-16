@@ -10,7 +10,7 @@ this element is repeated twice
 
 It's T.C O(n) & A.S.C O(1)
 */
-package array;
+
 import java.util.Scanner;
 
 public class DIA1ARR {

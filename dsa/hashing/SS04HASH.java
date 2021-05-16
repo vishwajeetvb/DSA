@@ -1,4 +1,4 @@
-package hashing;
+
 import java.util.Scanner;
 
 public class SS04HASH {

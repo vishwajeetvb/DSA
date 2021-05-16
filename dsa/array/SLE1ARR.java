@@ -6,8 +6,6 @@
 //if bigger update second_max else ignore curr_ele;
 //Time complexity is O(n)*/
 
-
-package array;
 import java.util.Scanner;
 public class SLE1ARR {
 

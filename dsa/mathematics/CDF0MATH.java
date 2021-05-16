@@ -1,5 +1,4 @@
 
-package mathematics;
 import java.util.Scanner;
 
 /*Conecpt in this Algo is

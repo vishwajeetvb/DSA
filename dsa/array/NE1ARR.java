@@ -2,7 +2,7 @@
 //Our approach is to swap with help of two pointers from startig and end of array
 //Time complexity fo our approach is  O(n) with O(1) space 
 
-package array;
+
 import java.util.Scanner;
 
 public class NE1ARR {

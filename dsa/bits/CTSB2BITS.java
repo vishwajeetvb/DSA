@@ -1,4 +1,4 @@
-package bits;
+
 import java.util.Scanner;
 
 public class CTSB2BITS {

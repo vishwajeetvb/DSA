@@ -1,6 +1,6 @@
-package string;
+
 import java.util.Arrays;
-import java.util.Scanner;
+//import java.util.Scanner;
 
 //Implementation of string class methods
 

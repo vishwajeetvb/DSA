@@ -2,9 +2,6 @@
   print that interval from 0-that i-1
   then start from next day and keep track untill price fall and again print
 */
-
-package array;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 

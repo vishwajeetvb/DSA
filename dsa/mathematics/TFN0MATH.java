@@ -1,5 +1,5 @@
 
-package mathematics;
+
 import java.util.Scanner;
 
 public class TFN0MATH {

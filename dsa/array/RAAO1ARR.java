@@ -3,7 +3,7 @@ The idea is simple to have two pointer starting from index 0 and 1 resp.
 and we keep on swap negative and positive element by taking 2 step at a time
 T.C is O(n)
 */
-package array;
+
 import java.util.Scanner;
 
 public class RAAO1ARR {

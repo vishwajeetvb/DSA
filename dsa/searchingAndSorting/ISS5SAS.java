@@ -1,5 +1,5 @@
 //Program to impelemnt shell sort
-package searchingAndSorting;
+
 import java.util.Scanner;
 
 public class ISS5SAS {

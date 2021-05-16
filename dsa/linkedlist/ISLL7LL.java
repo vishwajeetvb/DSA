@@ -1,14 +1,3 @@
-
-package linkedlist;
-class Node {
-    public int data;
-    public Node next;
-
-    Node(int data) {
-        this.data = data;
-    }
-}
-
 class SingleLL {
     Node head;
     Node tail;
@@ -18,7 +7,7 @@ class SingleLL {
         if (head == null) {
             this.head = this.tail = node;
         } else {
-            node.next = head;
+            node.setNext(head);
             head = node;
         }
     }
@@ -26,8 +15,8 @@ class SingleLL {
     void display() {
         Node temp = this.head;
         while (temp != null) {
-            System.out.print(temp.data + "->");
-            temp = temp.next;
+            System.out.print(temp.getiData() + "->");
+            temp = temp.getNext();
         }
         System.out.println();
     }
@@ -36,13 +25,13 @@ class SingleLL {
         if (head == null) {
             System.out.println("List is Empty");
         } else {
-            head = head.next;
+            head = head.getNext();
         }
     }
 
 }
 
-public class ISLL7LL {
+public class ISLL7LL{
     public static void main(String[] args) {
         SingleLL obj = new SingleLL();
         obj.AddAtStart(20);

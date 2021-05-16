@@ -1,6 +1,6 @@
 //Copied program from GFG..
 //Not understanded till now
-package array;
+
 import java.util.Scanner;
 
 public class MNJ1ARR {

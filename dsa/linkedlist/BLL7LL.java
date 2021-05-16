@@ -1,11 +1,26 @@
 //Implementation Of Linked List Class in Java
-package linkedlist;
+
 class Node{ 
  private String data;
  private Node next;
+ private int idata;
+
+
  
  Node(String data){
      this.data=data;
+ }
+
+ Node(int idata){
+     this.idata=idata;
+ }
+
+ public void setiData(int idata){
+     this.idata=idata;
+ }
+
+ public int getiData(){
+     return idata;
  }
 
  public void setData(String data) {

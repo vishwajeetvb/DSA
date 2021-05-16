@@ -1,6 +1,6 @@
 /* Here one function is with temparr another is without using  anothr arr
 */
-package array;
+
 import java.util.Scanner;
 
 public class RDS1ARR {

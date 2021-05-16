@@ -1,6 +1,6 @@
 
 
-package searchingAndSorting;
+
 import java.util.Scanner;
 
 public class KMAM5SAS {

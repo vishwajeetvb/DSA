@@ -2,7 +2,7 @@
 those places where we need to flip means where the bits are diff
 then we just return no of bits
 */
-package bits;
+
 import java.util.Scanner;
 
 public class NOBTF2BITS {

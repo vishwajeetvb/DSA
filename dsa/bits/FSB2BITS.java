@@ -9,7 +9,7 @@
 
   It's T.C will be O(logn)
 */
-package bits;
+
 import java.util.Scanner;
 
 class FSB2BITS{

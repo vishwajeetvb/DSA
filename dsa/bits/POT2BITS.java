@@ -4,7 +4,7 @@
 
    It's T.C is O(1)
 */
-package bits;
+
 import java.util.Scanner;
 
 public class POT2BITS {

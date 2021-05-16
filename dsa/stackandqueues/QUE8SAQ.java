@@ -1,4 +1,4 @@
-package stackandqueues;
+
 class Queue {
 
 	private int front; // front represents the index position of the first element in the queue

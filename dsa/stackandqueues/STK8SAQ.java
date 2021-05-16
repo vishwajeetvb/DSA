@@ -1,4 +1,4 @@
-package stackandqueues;
+
 class Stack{
     private String data[];
     private static int top;

@@ -3,7 +3,7 @@ Idea is to use binarys erach along with arr[i-1] OR arr[i+1]
 because the item is displaced at that place
 T.C is O(nlogn)
 */
-package searchingAndSorting;
+
 import java.util.Scanner;
 
 public class CTS5SAS {
