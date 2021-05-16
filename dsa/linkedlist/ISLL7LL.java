@@ -1,3 +1,5 @@
+
+
 class SingleLL {
     Node head;
     Node tail;
@@ -42,3 +44,4 @@ public class ISLL7LL{
         obj.display();
     }
 }
+
