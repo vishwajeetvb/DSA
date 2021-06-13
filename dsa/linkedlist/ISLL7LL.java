@@ -154,5 +154,7 @@ class ISLL7LL{
         display(head);
         head = insertAfterGivenValue(16, 250, head);
         display(head);
+        head = delete(head, 1666);
+        display(head);
     }
 }
